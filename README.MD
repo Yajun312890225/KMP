@@ -120,7 +120,9 @@ int KmpSearch(char* s, char* p)
     ![](./img/20140721223611515.jpg) 
 
 
-next数组求解过程
+### 4、next数组求解过程
+> ~~***再再来代码***~
+
 ```
 void GetNext(char* p,int next[])  
 {  
