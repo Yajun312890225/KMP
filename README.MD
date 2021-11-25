@@ -142,6 +142,7 @@ void GetNext(char* p,int next[])
 ```
 
 举个例子 字符串ABAC 模式串ABAB   
+
 |字符|A|B|A|B|  
 |---|---|---|---|---|  
 |最大长度表|0|0|1|2|  
