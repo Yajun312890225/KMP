@@ -121,7 +121,7 @@ int KmpSearch(char* s, char* p)
 
 
 ### 4、next数组求解过程
-> ~~***再再来代码***~
+> ~~***再再来代码***~~
 
 ```
 void GetNext(char* p,int next[])  
@@ -141,7 +141,7 @@ void GetNext(char* p,int next[])
 }  
 ```
 
-举个例子 字符串ABAC 模式串ABAB  
+举个例子 字符串ABAC 模式串ABAB   
 |字符|A|B|A|B|
 |---|---|---|---|---|
 |最大长度表|0|0|1|2|
@@ -152,7 +152,7 @@ void GetNext(char* p,int next[])
 |模式串|A|B|A|***B***|
 
 
-B和C不匹配，模式串进行右移 3 - next[3] = 2 位  
+B和C不匹配，模式串进行右移 3 - next[3] = 2 位    
 |文本串|A|B|A|***C***|||
 |---|---|---|---|---|---|---|
 |模式串|||A|***B***|A|B|
